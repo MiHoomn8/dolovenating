@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-family: "Crimson Text";
+    background-color: #efe6f3;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #56376a;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.conta {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding: 25px;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 272px;
+  height: 570px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.input-text-2 {
+  color: #9988aa;
+  background-color: #f6f6f8;
+  font-size: 12px;
+  font-style: italic;
+  text-align: start;
+  border: 1px solid #7b6888;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 65px;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.lupa {
+  width: 20px;
+  height: 20px;
+  background-image: url(./img/lupa.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: 2px solid #f6f6f8;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 223px;
+  position: relative;
+  top: -30px;
+}
+
+.subtitulo {
+  color: #7b6888;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5px;
+  position: relative;
+  bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.table {
+  color: #7b6888;
+  font-size: 14px;
+  text-align: start;
+  font-style: italic;
+  border: 1px solid #7b6888;
+  border-right: 0;
+  padding: 5px;
+}
+
+.table-2 {
+  color: #7b6888;
+  font-size: 14px;
+  text-align: start;
+  font-style: italic;
+  border: 1px solid #7b6888;
+  border-right: 0;
+  border-radius: 0 0 10px 10px;
+  padding: 5px;
+}
