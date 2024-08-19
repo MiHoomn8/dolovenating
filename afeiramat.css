@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-family: "Crimson Text";
+    background-color: #efe6f3;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #56376a;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.conta {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding: 25px;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 272px;
+  height: 570px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+h2 {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+.logo .circle {
+  width: 180px;
+  height: 180px;
+  background-image: url(./img/feira-da-mata.jpg);
+  background-size: cover;
+  background-position: center center;
+  border: 2px solid #56376a;
+  border-radius: 80%;
+  margin-top: 90px;
+  margin-left: 70px;
+}
+
+.doar {
+  color: #56376a;
+  background-color: #ebdef0;
+  font-size: 25px;
+  font-family: "Crimson Text";
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 122px;
+  padding: 3px;
+  padding-right: 30px;
+  border: 1px solid #7b6888;
+  box-shadow: 1px 1px 1px;
+}
+
+.doar:active {
+  box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
+  transform: translate(1px, 1px);
+}
+
+.receber-doaçao {
+  color: #56376a;
+  background-color: #ebdef0;
+  cursor: pointer;
+  font-family: "Crimson Text";
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 122px;
+  padding: 3px;
+  border: 1px solid #7b6888;
+  box-shadow: 1px 1px 1px;
+}
+
+.receber-doaçao:active {
+  box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
+  transform: translate(1px, 1px);
+}
