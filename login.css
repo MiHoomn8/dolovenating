@@ -53,6 +53,10 @@ h1 {
   margin-right: 10px;
 }
 
+::-webkit-input-placeholder {
+  color: #9988aa;
+}
+
 .criar {
   color: #56376a;
   background-color: #ebdef0;

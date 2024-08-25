@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-family: "Crimson Text";
+    background-color: #efe6f3;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #56376a;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h2 {
+  color: #56376a;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  padding: 25px;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 272px;
+  height: 570px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.duvida {
+  color: #56376a;
+  font-size: 17px;
+  text-align: center;
+  margin-right: 5px;
+  margin-top: 30px;
+}
+
+.feedback {
+  color: #56376a;
+  font-size: 17px;
+  text-align: center;
+  margin-right: 5px;
+  margin-top: 30px;
+}
+
+.contate {
+  color: #56376a;
+  font-size: 17px;
+  text-align: center;
+  margin-right: 5px;
+  margin-top: 30px;
+}
+
+.email {
+  color: #56376a;
+  font-size: 17px;
+  text-align: center;
+  margin-right: 5px;
+  margin-top: 30px;
+}
+
+.email:link {
+  color: #56376a;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: #a74ce3;
+  text-decoration: underline;
+}
+
+.equipe {
+  color: #56376a;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo .circle {
+  width: 90px;
+  height: 90px;
+  background-image: url(./img/logo.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: 2px solid #56376a;
+  border-radius: 80%;
+  cursor: none;
+  margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+}

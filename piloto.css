@@ -38,27 +38,3 @@ h1 {
   margin-left: 25px;
   margin-right: 20px;
 }
-
-.botao {
-  color: #56376a;
-  background-color: #ebdef0;
-  width: 228px;
-  height: 30px;
-  font-size: 18px;
-  font-family: "Crimson Text";
-  cursor: pointer;
-  font-style: italic;
-  font-weight: bold;
-  text-align: start;
-  margin-top: 10px;
-  margin-left: 20px;
-  padding: 3px;
-  padding-left: 10px;
-  border: 1px solid #7b6888;
-  box-shadow: 1px 1px 1px;
-}
-
-.botao:active {
-  box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
-  transform: translate(1px, 1px);
-}

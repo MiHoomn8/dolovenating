@@ -119,3 +119,7 @@ h1 {
   top: 240px;
   right: 3px;
 }
+
+::-webkit-input-placeholder {
+  color: #9988aa;
+}

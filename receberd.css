@@ -30,11 +30,314 @@ h1 {
 }
 
 .background {
-  background-color: #ffffff;
+  background-color: #efe6f3;
   width: 272px;
   height: 570px;
   border-radius: 10px;
   margin-top: 60px;
   margin-left: 25px;
   margin-right: 20px;
+}
+
+.boxes-1 {
+  background-color: #ffffff;
+  width: 132px;
+  height: 85px;
+  border-radius: 6px 0 6px 6px;
+  margin-bottom: 9px;
+}
+.boxes-2 {
+  background-color: #ffffff;
+  width: 132px;
+  height: 170px;
+  border-radius: 6px;
+  margin-bottom: 9px;
+}
+
+.boxes-3 {
+  background-color: #ffffff;
+  width: 132px;
+  height: 78px;
+  border-radius: 6px;
+  margin-bottom: 9px;
+}
+
+.boxes-4 {
+  background-color: #ffffff;
+  width: 132px;
+  height: 170px;
+  border-radius: 6px;
+  margin-bottom: 9px;
+  position: relative;
+  top: -538px;
+  left: 140px;
+}
+
+.boxes-5 {
+  background-color: #ffffff;
+  width: 132px;
+  height: 170px;
+  border-radius: 6px;
+  margin-bottom: 9px;
+  position: relative;
+  top: -538px;
+  left: 140px;
+}
+
+.boxes-6 {
+  background-color: #ffffff;
+  width: 132px;
+  height: 170px;
+  border-radius: 6px;
+  margin-bottom: 9px;
+  position: relative;
+  top: -538px;
+  left: 140px;
+}
+
+.logo .local-1 {
+  width: 20px;
+  height: 20px;
+  background-image: url(./img/local.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 80%;
+  position: relative;
+  top: 12px;
+  left: 1px;
+}
+
+.imagem .doaçao {
+  width: 130px;
+  height: 50px;
+  background-image: url(./img/lacteos.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  border: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 2px;
+}
+
+.titulo {
+  color: #3f2153;
+  width: 6px;
+  height: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+  top: 62px;
+  left: 20px;
+}
+
+.logo .local-2 {
+  width: 20px;
+  height: 20px;
+  background-image: url(./img/local.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 80%;
+  position: relative;
+  top: 148px;
+  left: 1px;
+}
+
+.imagem-2 .doaçao-2 {
+  width: 128px;
+  height: 128px;
+  background-image: url(./img/cestabasica.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 40px;
+  left: -1px;
+}
+
+.titulo-2 {
+  color: #3f2153;
+  width: 6px;
+  height: 6px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  top: 141px;
+  left: 22px;
+}
+
+.logo .local-3 {
+  width: 20px;
+  height: 20px;
+  background-image: url(./img/local.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 80%;
+  position: relative;
+  top: 17px;
+  left: 1px;
+}
+
+.imagem-3 .doaçao-3 {
+  width: 131px;
+  height: 131px;
+  background-image: url(./img/cestabasica2.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 6px 6px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 1px;
+  left: -1px;
+}
+
+.titulo-3 {
+  color: #3f2153;
+  width: 6px;
+  height: 6px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  top: 148px;
+  left: 22px;
+}
+
+.logo .local-4 {
+  width: 20px;
+  height: 20px;
+  background-image: url(./img/local.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 80%;
+  position: relative;
+  top: 148px;
+  left: 1px;
+}
+
+.imagem-5 .doaçao-5 {
+  width: 131px;
+  height: 131px;
+  background-image: url(./img/cama.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 6px 6px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -150px;
+  left: -1px;
+}
+
+.titulo-4 {
+  color: #3f2153;
+  width: 6px;
+  height: 6px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  top: 150px;
+  left: 22px;
+}
+
+.logo .local-5 {
+  width: 20px;
+  height: 20px;
+  background-image: url(./img/local.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 80%;
+  position: relative;
+  top: 148px;
+  left: 1px;
+}
+
+.imagem-6 .doaçao-6 {
+  width: 131px;
+  height: 131px;
+  background-image: url(./img/agasalhos.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 6px 6px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -150px;
+  left: -1px;
+}
+
+.titulo-5 {
+  color: #3f2153;
+  width: 6px;
+  height: 6px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  top: 150px;
+  left: 22px;
+}
+
+.logo .local-6 {
+  width: 20px;
+  height: 20px;
+  background-image: url(./img/local.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 80%;
+  position: relative;
+  top: 146px;
+  left: 1px;
+}
+
+.imagem-7 .doaçao-7 {
+  width: 131px;
+  height: 131px;
+  background-image: url(./img/roupas.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: auto;
+  border-radius: 6px 6px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -144px;
+  left: -1px;
+}
+
+.titulo-6 {
+  color: #3f2153;
+  width: 6px;
+  height: 6px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  top: 145px;
+  left: 22px;
+}
+
+.imagem-4 .doaçao-4 {
+  width: 131px;
+  height: 77px;
+  background-image: url(./img/roupasdecama.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  border: auto;
+  border-radius: 6px 6px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
 }

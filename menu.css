@@ -73,13 +73,20 @@ h1 {
   font-size: 14px;
   font-style: italic;
   text-align: center;
+  cursor: not-allowed;
   margin-bottom: 5px;
   position: relative;
   bottom: 25px;
 }
 
-a {
+a:link {
+  color: #7b6888;
   text-decoration: none;
+}
+
+a:hover {
+  color: #ac5fdf;
+  text-decoration: underline;
 }
 
 .table {
@@ -101,4 +108,8 @@ a {
   border-right: 0;
   border-radius: 0 0 10px 10px;
   padding: 5px;
+}
+
+::-webkit-input-placeholder {
+  color: #9988aa;
 }
