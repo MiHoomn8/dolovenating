@@ -39,81 +39,68 @@ h1 {
   margin-right: 20px;
 }
 
-.input-text {
-  color: #9988aa;
-  background-color: #f6f6f8;
-  font-size: 13px;
+h2 {
+  color: #56376a;
+  font-size: 22px;
   font-style: italic;
-  text-align: start;
-  border: 1px solid #7b6888;
-  padding: 7px;
-  padding-left: 15px;
-  margin-top: 9px;
-  margin-left: 20px;
-  margin-right: 10px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 50px;
 }
 
-.input-text-number {
-  color: #9988aa;
-  background-color: #f6f6f8;
-  font-size: 13px;
-  font-style: italic;
-  text-align: start;
-  border: 1px solid #7b6888;
-  padding: 7px;
-  padding-left: 15px;
-  padding-right: 55px;
-  margin-top: 9px;
-  margin-left: 20px;
-  margin-right: 10px;
+.logo .circle {
+  width: 180px;
+  height: 180px;
+  background-image: url(./img/alagoinhas.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border: 2px solid #56376a;
+  border-radius: 80%;
+  cursor: none;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-::-webkit-input-placeholder {
-  color: #9988aa;
-}
-
-.criar {
+.doar {
   color: #56376a;
   background-color: #ebdef0;
-  font-size: 18px;
+  font-size: 25px;
   font-family: "Crimson Text";
   cursor: pointer;
   font-style: italic;
   font-weight: bold;
   text-align: center;
-  margin-top: 122px;
-  margin-right: 25px;
-  margin-left: 205px;
+  margin-top: 80px;
+  margin-left: 122px;
   padding: 3px;
+  padding-right: 30px;
   border: 1px solid #7b6888;
   box-shadow: 1px 1px 1px;
 }
 
-.criar:active {
+.doar:active {
   box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
   transform: translate(1px, 1px);
 }
 
-.voltar {
+.receber-doaçao {
   color: #56376a;
   background-color: #ebdef0;
-  font-size: 18px;
-  font-family: "Crimson Text";
   cursor: pointer;
+  font-family: "Crimson Text";
+  font-size: 25px;
   font-style: italic;
   font-weight: bold;
   text-align: center;
-  margin-top: 1px;
-  margin-right: 50px;
-  margin-left: 144px;
+  margin-top: 10px;
+  margin-left: 122px;
   padding: 3px;
-  position: relative;
-  top: -32px;
   border: 1px solid #7b6888;
   box-shadow: 1px 1px 1px;
 }
 
-.voltar:active {
+.receber-doaçao:active {
   box-shadow: 0 0 0 0 #7b6888, inset 2px 2px 2px #7b6888;
   transform: translate(1px, 1px);
 }
